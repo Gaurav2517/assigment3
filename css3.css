@@ -1,0 +1,101 @@
+.child{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 25px;
+    border-radius: 50%;
+    background-color: red;
+    background-image:repeating-conic-gradient(red 10deg,yellow 45deg,green 82deg);
+}
+
+.jb{
+    animation-name: god;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    background-repeat: repeat-x;
+    animation-timing-function: linear;
+}
+@keyframes god{
+    0%{
+       
+       transform: translate(7%);
+       }
+    
+    25%{
+        transform: translate(550%);
+       }
+    50%{
+        transform: translateX(550%) translateY(200%);  
+    }
+    75%{
+        transform: translateX(7%) translateY(200%);
+    }
+    100%{
+        transform: translateX(7%);
+    }
+      
+    }
+    
+
+
+
+.body{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    top:200px
+}
+@media only screen and (max-device-width:){
+    .child{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 10px;
+        border-radius: 50%;
+        background-color: red;
+        background-image:repeating-conic-gradient(red 10deg,yellow 45deg,green 82deg);
+    }
+    .body{
+        background-color: black;
+    }
+    h1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        position: relative;
+        top:200px
+    }
+    .jb{
+        animation-name: god;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        background-repeat: repeat-x;
+        animation-timing-function: linear;
+    }
+    @keyframes god{
+        0%{
+           
+           transform: translate(7%);
+           }
+        
+        25%{
+            transform: translate(550%);
+           }
+        50%{
+            transform: translateX(550%) translateY(200%);  
+        }
+        75%{
+            transform: translateX(7%) translateY(200%);
+        }
+        100%{
+            transform: translateX(7%);
+        }
+          
+        }
+        
+
+}
