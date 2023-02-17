@@ -49,7 +49,7 @@ h1{
     position: relative;
     top:200px
 }
-@media only screen and (max-device-width:){
+@media only screen and (max-device-width: 340){
     .child{
         height: 100px;
         width: 100px;
